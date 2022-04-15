@@ -1,0 +1,13 @@
+.service {
+    margin: auto;
+    background-color: rgb(238, 239, 241);
+    height: 400px;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px gray;
+    margin-bottom: 30px;
+}
+
+.text-container {
+    padding: 10px;
+}
