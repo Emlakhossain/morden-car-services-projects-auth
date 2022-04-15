@@ -1,13 +1,30 @@
 .service {
     margin: auto;
     background-color: rgb(238, 239, 241);
-    height: 400px;
+    height: 520px;
     width: 450px;
     border-radius: 5px;
     box-shadow: 10px 10px 5px gray;
     margin-bottom: 30px;
 }
 
+.service-img img {
+    width: 100%;
+}
+
 .text-container {
     padding: 10px;
+}
+
+.service-btn {
+    border: none;
+    padding: 10px;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
 }
