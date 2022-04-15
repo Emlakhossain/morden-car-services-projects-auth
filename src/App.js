@@ -5,6 +5,7 @@ import About from './Pages/About/About';
 import Home from './Pages/Home/Services/Home/Home';
 import Header from './Pages/Shared/Header/Header';
 import Services from './Pages/Home/Services/Services';
+import Footer from './Pages/Shared/Footer/Footer';
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/about' element={<About></About>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

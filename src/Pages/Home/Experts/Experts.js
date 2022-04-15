@@ -9,11 +9,11 @@ import Expert from '../Expert/Expert';
 
 const experts = [
     { id: 1, name: 'brand Tom', img: Expert1 },
-    { id: 2, name: 'brand Tom', img: Expert2 },
-    { id: 3, name: 'brand Tom', img: Expert3 },
-    { id: 4, name: 'brand Tom', img: Expert4 },
-    { id: 5, name: 'brand Tom', img: Expert5 },
-    { id: 6, name: 'brand Tom', img: Expert6 },
+    { id: 2, name: 'brand hook', img: Expert2 },
+    { id: 3, name: 'Thomas Muller', img: Expert3 },
+    { id: 4, name: 'hank bro', img: Expert4 },
+    { id: 5, name: 'Jonathan Tom', img: Expert5 },
+    { id: 6, name: 'Cherly  cheplin', img: Expert6 },
 ];
 
 const Experts = () => {
