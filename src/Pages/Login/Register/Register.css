@@ -1,0 +1,24 @@
+.register-form {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 100px;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.register-form input {
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.register-login {
+    text-decoration: none;
+}
+
+.register-login:hover {
+    color: orange;
+    font-weight: 600;
+}
