@@ -33,8 +33,11 @@ const Register = () => {
 
             <form onSubmit={handleRegister}>
                 <input type="text" name="Name" id="" placeholder='Enter Your Name' />
+                <br />
                 <input type="email" name="email" id="" placeholder='Email' required />
+                <br />
                 <input type="password" name="password" id="" placeholder='Password' required />
+                <br />
                 <input className='bg-primary text-white fw-bold rounded' type="submit" value="Register" />
             </form>
             <p>Already Have an account? <Link to='/login' className='register-login' onClick={navigateLogin}>Please Login</Link></p>

@@ -12,6 +12,8 @@ import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import RequirAuth from './Pages/RequirAuth/RequirAuth/RequirAuth';
 import Booking from './Pages/Booking/Booking';
+import AddService from './Pages/AddService/AddService';
+import ManageServices from './Pages/ManageServices/ManageServices';
 
 
 
@@ -27,6 +29,8 @@ function App() {
         <Route path='/booking' element={<RequirAuth>
           <Booking></Booking>
         </RequirAuth>}></Route>
+        <Route path='/addservice' element={<RequirAuth><AddService></AddService></RequirAuth>}></Route>
+        <Route path='/manageservices' element={<RequirAuth><ManageServices></ManageServices></RequirAuth>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
